@@ -1,8 +1,10 @@
 import streamlit as st
+import pandas as pd
 from getAPI import GetAPI
 
+
 getAPI = GetAPI()
-getAPI.set_url = 'sp2020/2/1/3'
+getAPI.set_url = 'sp2020/5/1/3'
 
 getData = {}
 
@@ -12,5 +14,6 @@ for row in getAPI.getResponse("data"):
         getData[namaWilayah] = []
     getData[namaWilayah].append(row["nilai"])
 
-for itemWilayah, itemNilai in getData.items():
-    st.write(itemWilayah, itemNilai)
+
+data_frame = pd.DataFrame(getData)
+st.table(data_frame)
