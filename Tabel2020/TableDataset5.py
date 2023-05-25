@@ -1,10 +1,10 @@
 import streamlit as st
-from getAPI import GetAPI
+from getAPI2020 import GetAPI
 
 getAPI = GetAPI()
-getAPI.set_url = 'sp2020/1/1/3'
+getAPI.set_url = '1/1/3'
 
-st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk yang Pindah menurut Wilayah dan Jenis Kelamin</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</h2>", unsafe_allow_html=True)
 st.write("\n\n")
 
 table_html = "<table>\n"

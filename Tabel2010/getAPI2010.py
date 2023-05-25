@@ -3,7 +3,7 @@ import json
 
 class GetAPI:
     def __init__(self):
-        self.base_url = 'https://sensus.bps.go.id/topik/tabular/{0}'
+        self.base_url = 'https://sensus.bps.go.id/topik/tabular/sp2010/{0}'
         self._set_url = ''
 
     @property
