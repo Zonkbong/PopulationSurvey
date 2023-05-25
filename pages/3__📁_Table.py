@@ -20,7 +20,44 @@ with tab1:
     table_html += "  </tr>\n"
 
     table_html += "     <td>1</td>\n"
-    table_html += "     <td>Penduduk yang Pindah menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Kelompok Umur dan Jenis Kelamin</td>\n"
+    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "  </tr>\n"
+
+    table_html += "     <td>2</td>\n"
+    table_html += "     <td>#</td>\n"
+    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "  </tr>\n"
+
+    table_html += "     <td>3</td>\n"
+    table_html += "     <td>#</td>\n"
+    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "  </tr>\n"
+
+    table_html += "     <td>4</td>\n"
+    table_html += "     <td>#</td>\n"
+    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "  </tr>\n"   
+
+    table_html += "     <td>5</td>\n"
+    table_html += "     <td>#</td>\n"
+    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "  </tr>\n"   
+
+    table_html += "</table>"
+    st.markdown(table_html, unsafe_allow_html=True)
+
+with tab2:
+    tab2.subheader("Jumlah dan Distribusi Penduduk Tahun 2020")
+    table_html = "<table>\n"
+    table_html += "  <tr>\n"
+    table_html += "    <th>Nomor</th>\n"
+    table_html += "    <th><center>Dataset</center></th>\t"
+    table_html += "    <th>Lihat Data</th>\n"
+    table_html += "  </tr>\n"
+
+    table_html += "     <td>1</td>\n"
+    table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
     table_html += "     <td><button>Lihat Data</button></td>\n"
     table_html += "  </tr>\n"
 
@@ -41,43 +78,6 @@ with tab1:
 
     table_html += "     <td>5</td>\n"
     table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"   
-
-    table_html += "</table>"
-    st.markdown(table_html, unsafe_allow_html=True)
-
-with tab2:
-    tab2.subheader("Jumlah dan Distribusi Penduduk Tahun 2020")
-    table_html = "<table>\n"
-    table_html += "  <tr>\n"
-    table_html += "    <th>Nomor</th>\n"
-    table_html += "    <th><center>Dataset</center></th>\t"
-    table_html += "    <th>Lihat Data</th>\n"
-    table_html += "  </tr>\n"
-
-    table_html += "     <td>1</td>\n"
-    table_html += "     <td>test1</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"
-
-    table_html += "     <td>2</td>\n"
-    table_html += "     <td>test2</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"
-
-    table_html += "     <td>3</td>\n"
-    table_html += "     <td>test3</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"
-
-    table_html += "     <td>4</td>\n"
-    table_html += "     <td>test4</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"   
-
-    table_html += "     <td>5</td>\n"
-    table_html += "     <td>test5</td>\n"
     table_html += "     <td><button>Lihat Data</button></td>\n"
     table_html += "  </tr>\n"   
 
