@@ -1,7 +1,5 @@
 import streamlit as st
-import pandas as pd
 from getAPI import GetAPI
-
 
 getAPI = GetAPI()
 getAPI.set_url = 'sp2020/5/1/3'
@@ -9,7 +7,15 @@ getAPI.set_url = 'sp2020/5/1/3'
 table_html = "<table>\n"
 table_html += "  <tr>\n"
 table_html += "    <th>Nama Wilayah</th>\n"
-table_html += "    <th>Nilai</th>\n"
+table_html += "    <th>Nilai 1</th>\n"
+table_html += "    <th>Nilai 2</th>\n"
+table_html += "    <th>Nilai 3</th>\n"
+table_html += "    <th>Nilai 4</th>\n"
+table_html += "    <th>Nilai 5</th>\n"
+table_html += "    <th>Nilai 6</th>\n"
+table_html += "    <th>Nilai 7</th>\n"
+table_html += "    <th>Nilai 8</th>\n"
+table_html += "    <th>Nilai 9</th>\n"
 table_html += "  </tr>\n"
 
 sortData = {}
@@ -21,14 +27,10 @@ for row in getAPI.getResponse("data"):
 
 for sortedValue, values in sortData.items():
     table_html += "  <tr>\n"
-    table_html += f"    <td rowspan={len(values)}>{sortedValue}</td>\n"
-    table_html += f"    <td>{values[0]}</td>\n"
+    table_html += f"    <td>{sortedValue}</td>\n"
+    for value in values:
+        table_html += f"      <td>{value}</td>\n"
     table_html += "  </tr>\n"
-
-    for value in values[1:]:
-        table_html += "  <tr>\n"
-        table_html += f"    <td>{value}</td>\n"
-        table_html += "  </tr>\n"
 
 table_html += "</table>"
 st.markdown(table_html, unsafe_allow_html=True)
