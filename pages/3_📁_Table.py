@@ -1,4 +1,5 @@
 import streamlit as st
+import subprocess
 
 st.set_page_config(
     page_title="Badan Pusat Statik"
@@ -17,29 +18,29 @@ with tab1:
     table_html += "  </tr>\n"
 
     table_html += "     <td>1</td>\n"
-    table_html += "     <td>Penduduk Menurut Kelompok Umur dan Jenis Kelamin</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>#</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "     <td>Penduduk menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
-    table_html += "     <td>#</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "     <td>Penduduk menurut Wilayah, Klasifikasi Generasi</td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>4</td>\n"
-    table_html += "     <td>#</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"   
+    table_html += "     <td>Penduduk Menurut  Kesesuaian Alamat KK dengan Domisili</td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
+    table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>#</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
-    table_html += "  </tr>\n"   
+    table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
+    table_html += "  </tr>\n"
 
     table_html += "</table>"
     st.markdown(table_html, unsafe_allow_html=True)
@@ -55,7 +56,7 @@ with tab2:
 
     table_html += "     <td>1</td>\n"
     table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
-    table_html += "     <td><button>Lihat Data</button></td>\n"
+    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
