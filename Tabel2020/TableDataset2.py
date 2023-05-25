@@ -9,7 +9,7 @@ st.write("\n\n")
 
 table_html = "<table>\n"
 table_html += "  <tr>\n"
-table_html += "    <th><center>Nama Wilayah</th>\n"
+table_html += "    <th><center>Nama Provinsi</th>\n"
 table_html += "    <th><center>Laki - Laki</th>\n"
 table_html += "    <th><center>Perempuan</th>\n"
 table_html += "    <th><center>Total</th>\n"
