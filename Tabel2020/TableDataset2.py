@@ -1,18 +1,18 @@
 import streamlit as st
-from getAPI import GetAPI
+from getAPI2020 import GetAPI
 
 getAPI = GetAPI()
-getAPI.set_url = 'sp2020/1/1/3'
+getAPI.set_url = '4/1/3'
 
-st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk yang Pindah menurut Wilayah dan Jenis Kelamin</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</h2>", unsafe_allow_html=True)
 st.write("\n\n")
 
-table_html = "      <table>\n"
+table_html = "<table>\n"
 table_html += "  <tr>\n"
 table_html += "    <th><center>Nama Provinsi</th>\n"
-table_html += "    <th>Laki - Laki</th>\n"
-table_html += "    <th>Perempuan</th>\n"
-table_html += "    <th><center>Total</center></th>\n"
+table_html += "    <th><center>Laki - Laki</th>\n"
+table_html += "    <th><center>Perempuan</th>\n"
+table_html += "    <th><center>Total</th>\n"
 table_html += "  </tr>\n"
 
 sortData = {}
