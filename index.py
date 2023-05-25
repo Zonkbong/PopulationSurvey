@@ -4,18 +4,33 @@ from getAPI import GetAPI
 getAPI = GetAPI()
 getAPI.set_url = 'sp2020/5/1/3'
 
+st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk yang Pindah menurut Wilayah dan Jenis Kelamin</h2>", unsafe_allow_html=True)
+st.write("\n\n")
+
 table_html = "<table>\n"
 table_html += "  <tr>\n"
-table_html += "    <th>Nama Wilayah</th>\n"
-table_html += "    <th>Nilai 1</th>\n"
-table_html += "    <th>Nilai 2</th>\n"
-table_html += "    <th>Nilai 3</th>\n"
-table_html += "    <th>Nilai 4</th>\n"
-table_html += "    <th>Nilai 5</th>\n"
-table_html += "    <th>Nilai 6</th>\n"
-table_html += "    <th>Nilai 7</th>\n"
-table_html += "    <th>Nilai 8</th>\n"
-table_html += "    <th>Nilai 9</th>\n"
+table_html += "    <th><center>Nama Wilayah</th>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th><center>Sesuai</th>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th><center>Tidak Sesuai</th>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th><center>Total</th>\n"
+table_html += "    <th></th>\n"
+table_html += "  </tr>\n"
+table_html += "  <tr>\n"
+table_html += "    <th></th>\n"
+table_html += "    <th>Laki - Laki</th>\n"
+table_html += "    <th>Perempuan</th>\n"
+table_html += "    <th>Total</th>\n"
+table_html += "    <th>Laki - Laki</th>\n"
+table_html += "    <th>Perempuan</th>\n"
+table_html += "    <th>Total</th>\n"
+table_html += "    <th>Laki - Laki</th>\n"
+table_html += "    <th>Perempuan</th>\n"
+table_html += "    <th>Total</th>\n"
 table_html += "  </tr>\n"
 
 sortData = {}
