@@ -81,3 +81,7 @@ with tab2:
 
     table_html += "</table>"
     st.markdown(table_html, unsafe_allow_html=True)
+
+# Test Button go to next page
+if st.button('test button'):
+    subprocess.run(['streamlit', 'run', 'Tabel2010/TableDataset1.py'])
