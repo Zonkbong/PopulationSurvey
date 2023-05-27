@@ -59,7 +59,7 @@ with tab2:
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
@@ -74,7 +74,7 @@ with tab2:
     table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Jumlah Penduduk menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
