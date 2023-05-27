@@ -13,6 +13,6 @@ for row in getAPI.getResponse("data"):
     sortData[sortedValue].append(row['nilai'])
 
 provinsi = list(sortData.keys())
-displayData = {k: sortData[k][8] for k in provinsi}
+displayData = {k: sortData[k][2] for k in provinsi}
 df = pd.DataFrame.from_dict(displayData, orient='index', columns=['Data'])
 st.bar_chart(df)
