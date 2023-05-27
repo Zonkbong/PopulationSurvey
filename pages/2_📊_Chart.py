@@ -60,7 +60,7 @@ with tab2:
 
     table_html += "     <td>2</td>\n"
     table_html += "     <td>Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
-    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
+    table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset2-ok2gr8.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
@@ -75,7 +75,7 @@ with tab2:
 
     table_html += "     <td>5</td>\n"
     table_html += "     <td>Jumlah Penduduk menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
-    table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
+    table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset5-ynstdy.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "</table>"
