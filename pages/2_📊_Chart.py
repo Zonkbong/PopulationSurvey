@@ -17,27 +17,27 @@ with tab1:
     table_html += "  </tr>\n"
 
     table_html += "     <td>1</td>\n"
-    table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah dan Status Kewarganegaraan, INDONESIA, Tahun 2010</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Kelompok Umur dan Status Kewarganegaraan, INDONESIA, Tahun 2010</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Klasifikasi Generasi</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah dan Agama yang Dianut, INDONESIA, Tahun 2010</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>4</td>\n"
-    table_html += "     <td>Penduduk Menurut  Kesesuaian Alamat KK dengan Domisili</td>\n"
+    table_html += "     <td>Penduduk Menurut Kelompok Umur dan Agama yang Dianut, INDONESIA, Tahun 2010</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah, Daerah Perkotaan/Perdesaan, dan Jenis Kelamin, INDONESIA, Tahun 2010</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
@@ -54,27 +54,27 @@ with tab2:
     table_html += "  </tr>\n"
 
     table_html += "     <td>1</td>\n"
-    table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Jumlah Penduduk Menurut Wilayah, Kesesuaian Alamat KK dengan Domisili, dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Klasifikasi Generasi</td>\n"
+    table_html += "     <td>Jumlah Penduduk Menurut Wilayah, Kelompok Umur, dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>4</td>\n"
-    table_html += "     <td>Penduduk Menurut  Kesesuaian Alamat KK dengan Domisili</td>\n"
+    table_html += "     <td>Jumlah Penduduk menurut Wilayah, Klasifikasi Generasi, dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Jumlah Penduduk menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
     table_html += "     <td><a href=https://www.google.com><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
