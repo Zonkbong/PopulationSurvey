@@ -9,7 +9,7 @@ st.set_page_config(
 getAPI = GetAPI()
 getAPI.set_url = '13/91622/3'
 
-st.markdown("<h2 style='text-align: center;'>Penduduk Menurut Kelompok Umur dan Status Kewarganegaraan</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Penduduk Menurut Kelompok Umur dan Status Kewarganegaraan Tahun 2010</h2>", unsafe_allow_html=True)
 st.write("\n\n")
 
 sortData = {}
