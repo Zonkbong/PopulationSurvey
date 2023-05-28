@@ -2,8 +2,15 @@ import streamlit as st
 import pandas as pd
 from getAPI2020 import GetAPI
 
+st.set_page_config(
+    page_title="Badan Pusat Statistik"
+)
+
 getAPI = GetAPI()
 getAPI.set_url = '4/1/3'
+
+st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</h2>", unsafe_allow_html=True)
+st.write("\n\n")
 
 sortData = {}
 for row in getAPI.getResponse("data"):

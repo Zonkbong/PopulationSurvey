@@ -1,10 +1,14 @@
 import streamlit as st
 from getAPI2020 import GetAPI
 
+st.set_page_config(
+    page_title="Badan Pusat Statistik"
+)
+
 getAPI = GetAPI()
 getAPI.set_url = '2/1/3'
 
-st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk menurut Wilayah, Klasifikasi Generasi, dan Jenis Kelamin, INDONESIA, Tahun 2020</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'> Jumlah Penduduk menurut Wilayah, Klasifikasi Generasi, dan Jenis Kelamin</h2>", unsafe_allow_html=True)
 st.write("\n\n")
 
 table_html = "<table>\n"
