@@ -17,27 +17,27 @@ with tab1:
     table_html += "  </tr>\n"
 
     table_html += "     <td>1</td>\n"
-    table_html += "     <td>Penduduk yang pindah menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah dan Status Kewarganegaraan</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2010chartdataset1-wgid20.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
+    table_html += "     <td>	Penduduk Menurut Kelompok Umur dan Status Kewarganegaraan</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2010chartdataset2-zprhmv.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Klasifikasi Generasi</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah dan Agama yang Dianut</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2010chartdataset3-hoqotn.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>4</td>\n"
-    table_html += "     <td>Penduduk Menurut  Kesesuaian Alamat KK dengan Domisili</td>\n"
+    table_html += "     <td>Penduduk Menurut Kelompok Umur dan Agama yang Dianut</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2010chartdataset4-cneoog.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
+    table_html += "     <td>Penduduk Menurut Wilayah, Daerah Perkotaan/Perdesaan, dan Jenis Kelamin</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2010chartdataset5-3rijcf.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
@@ -59,22 +59,22 @@ with tab2:
     table_html += "  </tr>\n"
 
     table_html += "     <td>2</td>\n"
-    table_html += "     <td>Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
+    table_html += "     <td>Jumlah Penduduk yang Pindah Menurut Wilayah dan Jenis Kelamin</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset2-ok2gr8.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>3</td>\n"
-    table_html += "     <td>Penduduk menurut Wilayah, Klasifikasi Generasi</td>\n"
+    table_html += "     <td>Jumlah Penduduk Menurut Wilayah, Kelompok Umur, dan Jenis Kelamin</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset3-j5nzcq.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>4</td>\n"
-    table_html += "     <td>Penduduk Menurut  Kesesuaian Alamat KK dengan Domisili</td>\n"
+    table_html += "     <td>Jumlah Penduduk menurut Wilayah, Klasifikasi Generasi, dan Jenis Kelamin</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset4-c639he.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
     table_html += "     <td>5</td>\n"
-    table_html += "     <td>Jumlah Penduduk menurut Wilayah dan Jenis Kelamin, INDONESIA, Tahun 2020</td>\n"
+    table_html += "     <td>Jumlah Penduduk menurut Wilayah dan Jenis Kelamin</td>\n"
     table_html += "     <td><a href=https://zonkbong-populationsurvey-chart2020chartdataset5-ynstdy.streamlit.app/><button>Lihat Data</button></a></td>"
     table_html += "  </tr>\n"
 
